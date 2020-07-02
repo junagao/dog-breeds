@@ -2,12 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { hot } from 'react-hot-loader/root';
 import { connect } from 'react-redux';
-import { getBreeds } from '../../actions/dogs';
+import { getBreeds, getImages } from 'actions/dogs';
 
 export class App extends React.Component {
   componentDidMount() {
     const { getBreeds } = this.props;
     getBreeds();
+  }
+
+  componentDidUpdate(prevProps) {
+    const { getImages, breeds } = this.props;
+    if (breeds !== prevProps.breeds) {
+      getImages();
+    }
   }
 
   render() {
@@ -23,6 +30,7 @@ export class App extends React.Component {
 
 App.propTypes = {
   getBreeds: PropTypes.func.isRequired,
+  getImages: PropTypes.func.isRequired,
   breeds: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
@@ -33,6 +41,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {
   getBreeds,
+  getImages,
 };
 
 export const connectedApp = hot(

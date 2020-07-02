@@ -16,6 +16,7 @@
   "plugins": ["react", "jsx-a11y", "import", "prettier"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+    "no-shadow": "off"
   }
 }

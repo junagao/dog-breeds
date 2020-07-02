@@ -1,5 +1,14 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import React from 'react';
 import { render } from 'react-dom';
-import App from './App';
+import { Provider } from 'react-redux';
+import App from 'components';
+import store from 'store';
 
-render(<App />, document.getElementById('app'));
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app'),
+);

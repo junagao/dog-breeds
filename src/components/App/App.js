@@ -4,6 +4,7 @@ import { hot } from 'react-hot-loader/root';
 import { connect } from 'react-redux';
 import { getBreeds, getImages } from 'actions/dogs';
 import { Chart } from 'components';
+import AppContainer from './App.styles';
 
 class App extends React.Component {
   componentDidMount() {
@@ -21,7 +22,11 @@ class App extends React.Component {
   render() {
     const { dogs } = this.props;
 
-    return <Chart dogs={dogs} />;
+    return (
+      <AppContainer>
+        <Chart dogs={dogs} />
+      </AppContainer>
+    );
   }
 }
 

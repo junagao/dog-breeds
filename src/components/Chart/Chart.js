@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { PieChart } from 'react-minimal-pie-chart';
 import ReactTooltip from 'react-tooltip';
+import { H1, Footer, Link } from './Chart.styles';
 
 const Chart = ({ dogs }) => {
   const [hovered, setHovered] = useState(null);
@@ -33,7 +34,7 @@ const Chart = ({ dogs }) => {
 
   return (
     <div data-tip="" data-for="chart">
-      <h1>Percentage of Images by Breed</h1>
+      <H1>Images by Dog Breed (%)</H1>
       <PieChart
         data={data}
         animate
@@ -49,6 +50,12 @@ const Chart = ({ dogs }) => {
           typeof hovered === 'number' ? makeTooltipContent(data[hovered]) : null
         }
       />
+      <Footer>
+        Data source:{' '}
+        <Link href="https://dog.ceo/dog-api/documentation/" target="_blank">
+          Dog API
+        </Link>
+      </Footer>
     </div>
   );
 };

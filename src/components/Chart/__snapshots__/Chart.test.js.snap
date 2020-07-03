@@ -51,25 +51,25 @@ exports[`Chart matches snapshot 1`] = `
       />
     </svg>
     <div
-      class="__react_component_tooltip t7474aea4-d3ea-446d-9ad2-04d3ed493848 place-top type-dark"
+      class="__react_component_tooltip t9cbec60e-952c-45f3-98eb-07af4b324a8c place-top type-dark"
       data-id="tooltip"
       id="chart"
     >
       <style>
         
-  	.t7474aea4-d3ea-446d-9ad2-04d3ed493848 {
+  	.t9cbec60e-952c-45f3-98eb-07af4b324a8c {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-top {
+  	.t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-top {
         margin-top: -10px;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-top::before {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-top::after {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -80,13 +80,13 @@ exports[`Chart matches snapshot 1`] = `
         border-top-width: 6px;
     }
 
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-bottom {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-bottom {
         margin-top: 10px;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-bottom::before {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-bottom::after {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -97,13 +97,13 @@ exports[`Chart matches snapshot 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-left {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-left {
         margin-left: -10px;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-left::before {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-left::after {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -114,13 +114,13 @@ exports[`Chart matches snapshot 1`] = `
         border-left-width: 6px;
     }
 
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-right {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-right {
         margin-left: 10px;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-right::before {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t7474aea4-d3ea-446d-9ad2-04d3ed493848.place-right::after {
+    .t9cbec60e-952c-45f3-98eb-07af4b324a8c.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

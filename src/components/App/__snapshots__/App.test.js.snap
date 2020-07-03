@@ -92,25 +92,25 @@ exports[`App matches snapshot 1`] = `
           />
         </svg>
         <div
-          class="__react_component_tooltip tba255a62-f4f6-4f99-9d74-19e6abee5654 place-top type-dark"
+          class="__react_component_tooltip tbba57cae-6c2d-4866-977d-21634281ea21 place-top type-dark"
           data-id="tooltip"
           id="chart"
         >
           <style>
             
-  	.tba255a62-f4f6-4f99-9d74-19e6abee5654 {
+  	.tbba57cae-6c2d-4866-977d-21634281ea21 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tba255a62-f4f6-4f99-9d74-19e6abee5654.place-top {
+  	.tbba57cae-6c2d-4866-977d-21634281ea21.place-top {
         margin-top: -10px;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-top::before {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-top::after {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -121,13 +121,13 @@ exports[`App matches snapshot 1`] = `
         border-top-width: 6px;
     }
 
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-bottom {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-bottom {
         margin-top: 10px;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-bottom::before {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-bottom::after {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -138,13 +138,13 @@ exports[`App matches snapshot 1`] = `
         border-bottom-width: 6px;
     }
 
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-left {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-left {
         margin-left: -10px;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-left::before {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-left::after {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -155,13 +155,13 @@ exports[`App matches snapshot 1`] = `
         border-left-width: 6px;
     }
 
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-right {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-right {
         margin-left: 10px;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-right::before {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tba255a62-f4f6-4f99-9d74-19e6abee5654.place-right::after {
+    .tbba57cae-6c2d-4866-977d-21634281ea21.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

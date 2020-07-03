@@ -74,6 +74,7 @@ describe('App', () => {
       dogCount: 3,
     },
   ];
+
   test('matches snapshot', () => {
     const { container } = render(
       <App

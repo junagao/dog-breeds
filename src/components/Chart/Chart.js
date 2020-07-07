@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { PieChart } from 'react-minimal-pie-chart';
 import ReactTooltip from 'react-tooltip';
+import { Legend } from 'components';
 import { H1, Footer, Link } from './Chart.styles';
 
 const Chart = ({ dogs }) => {
   const [hovered, setHovered] = useState(null);
 
-  const totalDogsCount = dogs.reduce(
+  const totalDogsImagesCount = dogs.reduce(
     (acc, amount) => acc + amount.dogsCount,
     0,
   );
@@ -24,8 +25,9 @@ const Chart = ({ dogs }) => {
 
   const data = dogs.map(({ breed, dogsCount }, index) => ({
     label: breed,
-    value: (dogsCount / totalDogsCount) * 100,
+    value: (dogsCount / totalDogsImagesCount) * 100,
     color: rainbow(0, 94, index),
+    count: dogsCount,
   }));
 
   function makeTooltipContent({ label, value }) {
@@ -37,7 +39,7 @@ const Chart = ({ dogs }) => {
       <H1>Images by Dog Breed (%)</H1>
       <PieChart
         data={data}
-        style={{ height: '600px' }}
+        style={{ height: '500px' }}
         onMouseOver={(_, index) => setHovered(index)}
         onMouseOut={() => setHovered(null)}
       />
@@ -53,6 +55,7 @@ const Chart = ({ dogs }) => {
           Dog API
         </Link>
       </Footer>
+      <Legend data={data} />
     </div>
   );
 };

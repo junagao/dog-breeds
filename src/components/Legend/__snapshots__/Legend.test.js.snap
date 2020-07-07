@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legend matches snapshot 1`] = `
+.c0 {
+  max-width: 46rem;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.c1 {
+  font-size: 0.85rem;
+  text-align: left;
+  border-radius: 0.25rem 0.25rem 0 0;
+  border-collapse: separate;
+  border-spacing: 8px;
+  table-layout: fixed;
+}
+
+.c2 {
+  display: table-header-group;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.c4 {
+  color: rgba(0,0,0,0.85);
+  display: table-cell;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: left;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  padding: 0.25rem;
+  width: 25%;
+}
+
+.c4:first-child {
+  width: 3%;
+}
+
+.c3 {
+  display: table-row;
+  position: relative;
+  vertical-align: middle;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.c5 {
+  padding: 0.5rem;
+  color: rgba(0,0,0,0.65);
+}
+
+.c5:first-child {
+  border-radius: 0.25rem;
+  width: 3%;
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    max-width: 28rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <table
+      class="c1"
+      data-testid="legend-table"
+    >
+      <thead
+        class="c2"
+      >
+        <tr
+          class="c3"
+        >
+          <th
+            class="c4"
+          >
+            Color
+          </th>
+          <th
+            class="c4"
+          >
+            Breed
+          </th>
+          <th
+            class="c4"
+          >
+            Percentage
+          </th>
+          <th
+            class="c4"
+          >
+            Image Count
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c3"
+        >
+          <td
+            class="c5"
+          />
+          <td
+            class="c5"
+          />
+          <td
+            class="c5"
+          >
+            NaN
+            %
+          </td>
+          <td
+            class="c5"
+          />
+        </tr>
+        <tr
+          class="c3"
+        >
+          <td
+            class="c5"
+          />
+          <td
+            class="c5"
+          />
+          <td
+            class="c5"
+          >
+            NaN
+            %
+          </td>
+          <td
+            class="c5"
+          />
+        </tr>
+        <tr
+          class="c3"
+        >
+          <td
+            class="c5"
+          />
+          <td
+            class="c5"
+          />
+          <td
+            class="c5"
+          >
+            NaN
+            %
+          </td>
+          <td
+            class="c5"
+          />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

@@ -1,6 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Chart matches snapshot 1`] = `
+.c3 {
+  max-width: 46rem;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.c4 {
+  font-size: 0.85rem;
+  text-align: left;
+  border-radius: 0.25rem 0.25rem 0 0;
+  border-collapse: separate;
+  border-spacing: 8px;
+  table-layout: fixed;
+}
+
+.c5 {
+  display: table-header-group;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.c7 {
+  color: rgba(0,0,0,0.85);
+  display: table-cell;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: left;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  padding: 0.25rem;
+  width: 25%;
+}
+
+.c7:first-child {
+  width: 3%;
+}
+
+.c6 {
+  display: table-row;
+  position: relative;
+  vertical-align: middle;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.c8 {
+  padding: 0.5rem;
+  color: rgba(0,0,0,0.65);
+}
+
+.c8:first-child {
+  border-radius: 0.25rem;
+  width: 3%;
+}
+
 .c0 {
   color: #444;
   margin-bottom: 2rem;
@@ -25,6 +81,12 @@ exports[`Chart matches snapshot 1`] = `
   border-radius: 0.25rem;
 }
 
+@media (min-width:1280px) {
+  .c3 {
+    max-width: 28rem;
+  }
+}
+
 <div>
   <div
     currentitem="false"
@@ -39,7 +101,7 @@ exports[`Chart matches snapshot 1`] = `
     </h1>
     <svg
       height="100%"
-      style="height: 600px;"
+      style="height: 500px;"
       viewBox="0 0 100 100"
       width="100%"
     >
@@ -51,25 +113,25 @@ exports[`Chart matches snapshot 1`] = `
       />
     </svg>
     <div
-      class="__react_component_tooltip t490908a9-14d3-4f03-8b58-f4cd8d97bc98 place-top type-dark"
+      class="__react_component_tooltip t3bda62ba-4b9f-4afb-9e89-37e2668ce19a place-top type-dark"
       data-id="tooltip"
       id="chart"
     >
       <style>
         
-  	.t490908a9-14d3-4f03-8b58-f4cd8d97bc98 {
+  	.t3bda62ba-4b9f-4afb-9e89-37e2668ce19a {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-top {
+  	.t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-top {
         margin-top: -10px;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-top::before {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-top::after {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -80,13 +142,13 @@ exports[`Chart matches snapshot 1`] = `
         border-top-width: 6px;
     }
 
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-bottom {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-bottom {
         margin-top: 10px;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-bottom::before {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-bottom::after {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -97,13 +159,13 @@ exports[`Chart matches snapshot 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-left {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-left {
         margin-left: -10px;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-left::before {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-left::after {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -114,13 +176,13 @@ exports[`Chart matches snapshot 1`] = `
         border-left-width: 6px;
     }
 
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-right {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-right {
         margin-left: 10px;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-right::before {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-right::after {
+    .t3bda62ba-4b9f-4afb-9e89-37e2668ce19a.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -146,6 +208,67 @@ exports[`Chart matches snapshot 1`] = `
         Dog API
       </a>
     </p>
+    <div
+      class="c3"
+    >
+      <table
+        class="c4"
+        data-testid="legend-table"
+      >
+        <thead
+          class="c5"
+        >
+          <tr
+            class="c6"
+          >
+            <th
+              class="c7"
+            >
+              Color
+            </th>
+            <th
+              class="c7"
+            >
+              Breed
+            </th>
+            <th
+              class="c7"
+            >
+              Percentage
+            </th>
+            <th
+              class="c7"
+            >
+              Image Count
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="c6"
+          >
+            <td
+              class="c8"
+              style="background-color: rgb(255, 0, 0);"
+            />
+            <td
+              class="c8"
+            >
+              husky
+            </td>
+            <td
+              class="c8"
+            >
+              NaN
+              %
+            </td>
+            <td
+              class="c8"
+            />
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 `;

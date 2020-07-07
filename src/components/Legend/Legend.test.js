@@ -1,9 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { App } from './App';
+import Legend from './Legend';
 
-describe('App', () => {
-  const mockBreeds = ['chihuahua', 'collie', 'husky'];
+describe('Legend', () => {
   const mockDogs = [
     {
       breed: 'chihuahua',
@@ -40,43 +39,16 @@ describe('App', () => {
       dogCount: 3,
     },
   ];
-
   test('matches snapshot', () => {
-    const { container } = render(
-      <App
-        getBreeds={jest.fn()}
-        getImages={jest.fn()}
-        breeds={mockBreeds}
-        dogs={mockDogs}
-        loading={false}
-      />,
-    );
+    const { container } = render(<Legend data={mockDogs} />);
     expect(container).toMatchSnapshot();
   });
-
-  test('render an instance of Loading component if loading is true', () => {
-    const { getByTestId } = render(
-      <App
-        getBreeds={jest.fn()}
-        getImages={jest.fn()}
-        breeds={mockBreeds}
-        dogs={mockDogs}
-        loading
-      />,
-    );
-    expect(getByTestId('spinner')).toBeInTheDocument();
-  });
-
-  test('render an instance of Chart if loading is false', () => {
-    const { getByTestId } = render(
-      <App
-        getBreeds={jest.fn()}
-        getImages={jest.fn()}
-        breeds={mockBreeds}
-        dogs={mockDogs}
-        loading={false}
-      />,
-    );
-    expect(getByTestId('pie-chart')).toBeInTheDocument();
+  test('displays a table with color, breed, Image Count and Percentage as headers', () => {
+    const { getByTestId, getByText } = render(<Legend data={mockDogs} />);
+    expect(getByTestId('legend-table')).toBeInTheDocument();
+    expect(getByText('Color')).toBeInTheDocument();
+    expect(getByText('Breed')).toBeInTheDocument();
+    expect(getByText('Image Count')).toBeInTheDocument();
+    expect(getByText('Percentage')).toBeInTheDocument();
   });
 });

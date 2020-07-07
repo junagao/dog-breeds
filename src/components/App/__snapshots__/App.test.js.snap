@@ -92,25 +92,25 @@ exports[`App matches snapshot 1`] = `
           />
         </svg>
         <div
-          class="__react_component_tooltip tbba57cae-6c2d-4866-977d-21634281ea21 place-top type-dark"
+          class="__react_component_tooltip t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6 place-top type-dark"
           data-id="tooltip"
           id="chart"
         >
           <style>
             
-  	.tbba57cae-6c2d-4866-977d-21634281ea21 {
+  	.t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tbba57cae-6c2d-4866-977d-21634281ea21.place-top {
+  	.t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-top {
         margin-top: -10px;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-top::before {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-top::after {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -121,13 +121,13 @@ exports[`App matches snapshot 1`] = `
         border-top-width: 6px;
     }
 
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-bottom {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-bottom {
         margin-top: 10px;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-bottom::before {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-bottom::after {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -138,13 +138,13 @@ exports[`App matches snapshot 1`] = `
         border-bottom-width: 6px;
     }
 
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-left {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-left {
         margin-left: -10px;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-left::before {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-left::after {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -155,13 +155,13 @@ exports[`App matches snapshot 1`] = `
         border-left-width: 6px;
     }
 
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-right {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-right {
         margin-left: 10px;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-right::before {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tbba57cae-6c2d-4866-977d-21634281ea21.place-right::after {
+    .t7c9ed0ad-53cb-449e-ae74-405b00a3fbd6.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

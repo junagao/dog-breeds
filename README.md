@@ -1,6 +1,6 @@
 # Dogs Breeds Chart
 
-This is a single page application to visualize the percentage of images for every breed from the [Dog API](https://dog.ceo/dog-api/documentation/) in a pie-chart.
+This is a single page application to visualize the percentage of images for every breed from the [Dog API](https://dog.ceo/dog-api/documentation/) in a pie-chart. The colors in the chart were generated in a spectrum of a rainbow based on the total number of breeds and the current index of each breed.
 
 ## 👀 Preview
 

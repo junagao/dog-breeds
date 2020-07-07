@@ -33,13 +33,10 @@ const Chart = ({ dogs }) => {
   }
 
   return (
-    <div data-tip="" data-for="chart">
+    <div data-tip="" data-for="chart" data-testid="pie-chart">
       <H1>Images by Dog Breed (%)</H1>
       <PieChart
         data={data}
-        animate
-        animationDuration={500}
-        animationEasing="ease-in"
         style={{ height: '600px' }}
         onMouseOver={(_, index) => setHovered(index)}
         onMouseOut={() => setHovered(null)}

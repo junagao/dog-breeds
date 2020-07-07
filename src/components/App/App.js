@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { hot } from 'react-hot-loader/root';
 import { connect } from 'react-redux';
 import { getBreeds, getImages } from 'actions/dogs';
-import { Chart } from 'components';
+import { Chart, Loading } from 'components';
 import AppContainer from './App.styles';
 
-class App extends React.Component {
+export class App extends React.Component {
   componentDidMount() {
     const { getBreeds } = this.props;
     getBreeds();
@@ -20,12 +20,18 @@ class App extends React.Component {
   }
 
   render() {
-    const { dogs } = this.props;
+    const { dogs, loading } = this.props;
 
     return (
-      <AppContainer>
-        <Chart dogs={dogs} />
-      </AppContainer>
+      <div>
+        {loading ? (
+          <Loading />
+        ) : (
+          <AppContainer>
+            <Chart dogs={dogs} />
+          </AppContainer>
+        )}
+      </div>
     );
   }
 }
@@ -35,11 +41,13 @@ App.propTypes = {
   getImages: PropTypes.func.isRequired,
   breeds: PropTypes.arrayOf(PropTypes.string).isRequired,
   dogs: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 const mapStateToProps = (state) => ({
   breeds: state.breeds,
   dogs: state.dogs,
+  loading: state.loading,
   error: state.error,
 });
 
@@ -48,4 +56,6 @@ const mapDispatchToProps = {
   getImages,
 };
 
-export default hot(connect(mapStateToProps, mapDispatchToProps)(App));
+const connectedApp = hot(connect(mapStateToProps, mapDispatchToProps)(App));
+
+export default connectedApp;

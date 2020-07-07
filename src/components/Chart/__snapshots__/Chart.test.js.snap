@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart matches snapshot 1`] = `
+.c0 {
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.c1 {
+  color: #444;
+  margin-top: 2rem;
+  font-size: 12px;
+}
+
+.c2 {
+  color: #000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0.25rem;
+}
+
+.c2:hover {
+  color: #fff;
+  background-color: #000;
+  border-radius: 0.25rem;
+}
+
+<div>
+  <div
+    currentitem="false"
+    data-for="chart"
+    data-testid="pie-chart"
+    data-tip=""
+  >
+    <h1
+      class="c0"
+    >
+      Images by Dog Breed (%)
+    </h1>
+    <svg
+      height="100%"
+      style="height: 600px;"
+      viewBox="0 0 100 100"
+      width="100%"
+    >
+      <path
+        d="M NaN NaN A 25 25 0 1 1 NaN NaN"
+        fill="none"
+        stroke="hsl(0,100%,50%)"
+        stroke-width="50"
+      />
+    </svg>
+    <div
+      class="__react_component_tooltip t490908a9-14d3-4f03-8b58-f4cd8d97bc98 place-top type-dark"
+      data-id="tooltip"
+      id="chart"
+    >
+      <style>
+        
+  	.t490908a9-14d3-4f03-8b58-f4cd8d97bc98 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-top {
+        margin-top: -10px;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-bottom {
+        margin-top: 10px;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-left {
+        margin-left: -10px;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-right {
+        margin-left: 10px;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t490908a9-14d3-4f03-8b58-f4cd8d97bc98.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  
+      </style>
+    </div>
+    <p
+      class="c1"
+    >
+      Data source:
+       
+      <a
+        class="c2"
+        href="https://dog.ceo/dog-api/documentation/"
+        target="_blank"
+      >
+        Dog API
+      </a>
+    </p>
+  </div>
+</div>
+`;
